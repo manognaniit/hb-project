@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+ <hibernate-mapping>
+ <class name="Stu_inf" table= "studentinfo">
+ <id name="name">
+ <generator class="assigned"></generator>
+ </id>
+ <property name="course"></property>
+ <property name="department"></property> 
+ 
+ </class>
+ 
+ 
+ 
+ 
+ </hibernate-mapping>
